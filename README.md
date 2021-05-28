@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Hosted App
+
+The hosted version of this app can be seen at https://mattnguyen1.github.io/order-book/
 
 ## Available Scripts
 
