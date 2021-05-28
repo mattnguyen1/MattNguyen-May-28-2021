@@ -93,6 +93,7 @@ export const {
 } = orderBookSlice.actions;
 
 export type BookRecord = Record<string, OrderBook>;
+export type BookState = 'connected' | 'disconnected' | 'connecting';
 export type OrderBook = {
   bids: OrderRecord;
   asks: OrderRecord;
@@ -101,7 +102,7 @@ export type OrderBook = {
 export type OrderBookState = {
   books: BookRecord;
   activeBookId: string;
-  activeBookState: 'connected' | 'disconnected' | 'connecting';
+  activeBookState: BookState;
 };
 
 export default orderBookSlice.reducer;

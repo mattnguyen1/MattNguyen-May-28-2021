@@ -3,11 +3,13 @@ import { OrderLevel } from './orderBookSelectors';
 import styles from './OrderBook.module.css';
 import cx from 'classnames';
 
+export type OrderType = 'bid' | 'ask';
+
 type OrderLevelProps = {
   orderLevel: OrderLevel;
   maxSize: number;
   isVerticallyOriented: boolean;
-  type: 'bid' | 'ask';
+  type: OrderType;
 };
 
 function OrderLevelRow({ maxSize, orderLevel, type, isVerticallyOriented, ...props }: OrderLevelProps) {
