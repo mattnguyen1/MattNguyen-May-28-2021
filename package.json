@@ -2,7 +2,7 @@
   "name": "order-book",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mattnguyen1.github.io/order-book",
+  "homepage": "http://mattnguyen1.github.io/MattNguyen-May-28-2021/",
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "@reduxjs/toolkit": "^1.5.1",
